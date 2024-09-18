@@ -32,4 +32,5 @@ for (var i = 0; i < 6; i++)
     var ronQuote = JArray.Parse(ronResponseJson);
     Console.WriteLine($"Ron: {ronQuote[0]}...");
     Console.WriteLine();
+    Thread.Sleep(2000);
 }
